@@ -1,0 +1,417 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  padding: 0 40px;
+}
+.header-container .navbar {
+  padding: 0;
+}
+.header-container .header-content {
+  align-items: center;
+}
+.header-container .header-content .header-logo-container {
+  padding-right: 30px;
+}
+.header-container .header-content .header-logo-container img {
+  height: 50px;
+}
+.header-container .header-content .navbar-collapse {
+  align-items: center;
+}
+.header-container .header-content .navbar-collapse .nav-pills {
+  display: flex;
+}
+.header-container .header-content .navbar-collapse .nav-pills .nav-item {
+  font-size: 18px;
+  font-weight: 450;
+}
+.header-container .header-content .navbar-collapse .nav-pills .nav-item .nav-link {
+  color: black;
+}
+.header-container .header-content .navbar-collapse .nav-pills .nav-item .nav-link:hover {
+  background-color: wheat;
+}
+
+.main-container .banner-container {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+  background-color: black;
+}
+.main-container .banner-container .banner-img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.85;
+}
+.main-container .banner-container .main-title-container {
+  background-color: rgba(255, 255, 255, 0.904);
+  color: black;
+  bottom: 70px;
+  margin-left: 0;
+}
+.main-container .main-hero {
+  background-color: rgb(231, 213, 174);
+}
+.main-container .main-hero .lead {
+  font-weight: 350;
+}
+.main-container .main-hero .carousel-inner {
+  box-shadow: 0.1rem 0.1rem 0.5rem rgb(31, 31, 31);
+  border-radius: 4px;
+  max-width: 500px;
+}
+
+.cabello-container {
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+.cabello-container .cortes-container {
+  justify-content: center;
+  width: calc(100% - 50px);
+}
+.cabello-container .cortes-container .cortes-card {
+  flex-direction: column;
+  justify-content: center;
+  width: 380px;
+  padding: 1.5rem;
+  text-align: center;
+  background-color: rgb(218, 206, 193);
+  border-radius: 4px;
+}
+.cabello-container .cortes-container .cortes-card .cortes-img {
+  width: 100%;
+}
+.cabello-container .cortes-container .damas-card {
+  background-color: rgb(226, 183, 194);
+  margin-right: 200px;
+}
+.cabello-container .cortes-container .damas-card .cortes-img {
+  border: solid 2px rgba(133, 73, 88, 0.534);
+}
+.cabello-container .variados-container {
+  background-color: rgb(235, 235, 235);
+  padding: 0 40px;
+  justify-content: center;
+}
+.cabello-container .variados-container .feature-container {
+  display: flex;
+  justify-content: center;
+}
+.cabello-container .variados-container .feature-col {
+  width: -moz-min-content;
+  width: min-content;
+}
+.cabello-container .variados-container .feature-col .card-cover {
+  position: relative;
+  height: 350px;
+  width: 350px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: white;
+}
+.cabello-container .variados-container .feature-col .card-cover .feature-title {
+  text-align: center;
+}
+.cabello-container .variados-container .feature-col .card-cover .feature-title h3 {
+  position: relative;
+  top: 200px;
+  text-shadow: 2px 2px 10px black;
+}
+.cabello-container .variados-container .feature-col .lead {
+  width: 100%;
+}
+.cabello-container .variados-container .feature-col .feat1 {
+  background-image: url("/images/secado1.webp");
+}
+.cabello-container .variados-container .feature-col .feat2 {
+  background-image: url("/images/lavado.jpg");
+}
+.cabello-container .variados-container .feature-col .feat3 {
+  background-image: url("/images/hidratacion.jpeg");
+}
+.cabello-container .variados-container .feature-col .feat4 {
+  background-image: url("/images/coloracion.jpeg");
+}
+.cabello-container .variados-container .feature-col .feat5 {
+  background-image: url("/images/keratina.jpeg");
+}
+
+.maquillaje-container {
+  padding: 0;
+}
+.maquillaje-container .container .row {
+  justify-content: center;
+}
+.maquillaje-container .container .row .maquillaje-texto {
+  font-weight: 350;
+}
+.maquillaje-container .container .row .carousel {
+  max-width: 400px;
+}
+.maquillaje-container .container .row .carousel .carousel-inner {
+  border-radius: 4px;
+  box-shadow: 0.1rem 0.1rem 0.5rem rgb(31, 31, 31);
+}
+.maquillaje-container .container .row .carousel .carousel-inner .carousel-item img {
+  width: 100%;
+  height: auto;
+}
+.maquillaje-container .sub-container {
+  background-color: rgb(236, 236, 236);
+}
+.maquillaje-container .sub-container .card {
+  width: 350px;
+  margin: 20px;
+}
+
+#spa {
+  padding: 0;
+}
+#spa .spa-container {
+  background-color: rgb(235, 223, 203);
+}
+#spa .spa-container .title-container .lead {
+  font-size: 20px;
+  font-weight: 350;
+}
+#spa .spa-container .spa-items {
+  padding: 0 40px;
+  justify-content: center;
+}
+#spa .spa-container .spa-items .feature-container {
+  display: flex;
+  justify-content: center;
+}
+#spa .spa-container .spa-items .feature-col {
+  width: -moz-min-content;
+  width: min-content;
+}
+#spa .spa-container .spa-items .feature-col .card-cover {
+  position: relative;
+  height: 350px;
+  width: 350px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: white;
+}
+#spa .spa-container .spa-items .feature-col .card-cover .feature-title {
+  text-align: center;
+}
+#spa .spa-container .spa-items .feature-col .card-cover .feature-title h3 {
+  position: relative;
+  top: 220px;
+  text-shadow: 2px 2px 10px black;
+}
+#spa .spa-container .spa-items .feature-col .card-cover .feature-title .last-title {
+  position: relative;
+  top: 120px;
+}
+#spa .spa-container .spa-items .feature-col .lead {
+  width: 100%;
+}
+#spa .spa-container .spa-items .feature-col .feat1 {
+  background-image: url("/images/manicura-sqr.png");
+}
+#spa .spa-container .spa-items .feature-col .feat2 {
+  background-image: url("/images/pedicure.jpg");
+}
+#spa .spa-container .spa-items .feature-col .feat3 {
+  background-image: url("/images/limpieza-facial.jpg");
+}
+
+.ubicacion-container .ubicacion-info {
+  justify-content: center;
+  align-items: center;
+}
+.ubicacion-container .ubicacion-info img {
+  margin: 30px;
+  width: 600px;
+  border-radius: 4px;
+}
+.ubicacion-container .ubicacion-info .lead {
+  width: 400px;
+}
+.ubicacion-container .bottom-group .map {
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+}
+.ubicacion-container .bottom-group .map .iframe {
+  border-radius: 3px;
+  border: solid gray 2px;
+}
+.ubicacion-container .bottom-group .map .iframe iframe {
+  max-width: 400px;
+  max-height: 400px;
+}
+.ubicacion-container .bottom-group .map .btn {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 6px 20px;
+}
+.ubicacion-container .bottom-group .horario {
+  background-color: rgb(233, 232, 230);
+  padding: 20px;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 3px;
+  width: 300px;
+}
+
+#contacto {
+  padding: 0;
+}
+#contacto .contacto-container {
+  background-color: rgb(224, 219, 214);
+}
+#contacto .contacto-container .cards-container .card-container {
+  align-items: stretch;
+}
+#contacto .contacto-container .cards-container .card-container .card {
+  background-color: white;
+  width: 250px;
+  margin: 0 20px 15px;
+}
+#contacto .contacto-container .cards-container .card-container .card .card-img-top {
+  width: 150px;
+  padding: 10px 0;
+}
+
+.footer {
+  padding: 0 15px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(216, 216, 216);
+}
+.footer .top-footer .footer-logo-container {
+  margin-right: 30px;
+  border: solid black;
+  border-radius: 3px;
+}
+.footer .top-footer .footer-logo-container img {
+  height: 40px;
+  filter: invert(100%);
+}
+.footer .top-footer .nav {
+  width: -moz-max-content;
+  width: max-content;
+}
+.footer .top-footer .nav .nav-link {
+  color: rgb(216, 216, 216);
+}
+.footer .bottom-footer .list-unstyled .link-body-emphasis {
+  padding: 0 5px;
+}
+.footer .bottom-footer .list-unstyled .link-body-emphasis svg {
+  width: 25px;
+  color: rgb(216, 216, 216);
+}
+
+@media (max-width: 1200px) {
+  .cabello-container .cortes-container .damas-card {
+    margin-right: 100px;
+  }
+}
+@media (max-width: 992px) {
+  .cabello-container .cortes-container .damas-card {
+    margin-right: 50px;
+  }
+}
+@media (max-width: 900px) {
+  .cabello-container .cortes-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cabello-container .cortes-container .damas-card {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+  .ubicacion-container .horario {
+    width: 80vw;
+  }
+}
+@media (max-width: 720px) {
+  .footer .top-footer .nav {
+    flex-direction: column;
+  }
+}
+@media (max-width: 592px) {
+  #contacto .contacto-container .cards-container .card-container {
+    justify-content: center;
+  }
+  #contacto .contacto-container .cards-container .card-container .card .card-img-top {
+    width: 120px;
+  }
+}
+@media (max-width: 500px) {
+  .header-container {
+    justify-content: center;
+    padding: 0;
+  }
+  .header-container .navbar-collapse .nav-pills {
+    flex-direction: column;
+  }
+  .header-content {
+    justify-content: center !important;
+  }
+  .header-logo-container {
+    padding-right: 0;
+  }
+  .cabello-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .cabello-container .cortes-container .cortes-card {
+    width: 85vw;
+  }
+  .cabello-container .variados-container .feature-col .card-cover {
+    width: 80vw;
+  }
+  .maquillaje-container .container {
+    padding: 0 !important;
+  }
+  .maquillaje-container .container .row {
+    margin: 0;
+  }
+  .maquillaje-container .container .col-10 {
+    margin-top: 0;
+    padding: 0;
+  }
+  .maquillaje-container .container .carousel .carousel-inner {
+    width: 78vw;
+  }
+  .spa-container .spa-items .feature-container .feature-col {
+    padding: 0;
+  }
+  .spa-container .spa-items .feature-container .feature-col .card-cover {
+    width: 80vw !important;
+    height: auto;
+  }
+  .ubicacion-container .bottom-group .map {
+    padding: 0;
+  }
+  .ubicacion-container .bottom-group .map .iframe iframe {
+    width: 80vw;
+    height: 90vw;
+  }
+}
+@media (max-width: 400px) {
+  .footer .top-footer .footer-logo-container {
+    margin-bottom: 15px;
+    margin-right: 0;
+  }
+  .footer .bottom-footer .link-body-emphasis {
+    padding: 0;
+  }
+  .header-container .navbar .navbar-toggler {
+    margin: 10px;
+  }
+}/*# sourceMappingURL=index.css.map */
